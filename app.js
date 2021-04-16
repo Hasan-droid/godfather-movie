@@ -2,7 +2,7 @@ var sesion=prompt("which seesion would like to know about")
 var pargraph=document.getElementById("p1")
 var home_page=document.getElementById("hom_link_id")
 var movie_name=document.getElementById("head_name_id")
-<<<<<<< HEAD
+ 
 while(sesion !=1 && sesion !=2 && sesion != 3 )
 {
   sesion=prompt("please choose 1 or 2 or 3 ")
@@ -11,8 +11,7 @@ while(sesion !=1 && sesion !=2 && sesion != 3 )
 {
 
 }
-=======
->>>>>>> e7585ac5a91ff89b4796ea24a1908c184ce1ece8
+ 
 if(sesion == 2)
  {
   document.getElementById("img01").src="https://images-na.ssl-images-amazon.com/images/I/51eL8bPdkrL._SY445_.jpg"
