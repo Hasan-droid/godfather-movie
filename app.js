@@ -1,26 +1,26 @@
-var sesion=1
-//prompt("which seesion would like to know about")
+var sesion=
+prompt("which seesion would like to know about")
 var pargraph=document.getElementById("p1")
 var home_page=document.getElementById("hom_link_id")
 var movie_name=document.getElementById("head_name_id")
  
-// while(sesion !=1 && sesion !=2 && sesion != 3 )
-// {
-//   sesion=prompt("please choose 1 or 2 or 3 ")
+while(sesion !=1 && sesion !=2 && sesion != 3 )
+{
+  sesion=prompt("please choose 1 or 2 or 3 ")
    
-// }
-var rept=1
-//prompt("how many images would you like to see ?")
+}
+var rept=
+prompt("how many images would you like to see ?")
 
  
 
  function repeat(rept , links)
  {
-//  for(var i =rept ; i > 0 ; i--)
-//    { document.writeln(i+"")
+ for(var i =rept ; i > 0 ; i--)
+   { document.writeln(i+"")
 
-//          document.writeln("<img src="+"'"+links+"'"+"/>" )    
-//    }
+         document.writeln("<img src="+"'"+links+"'"+"/>" )    
+   }
   }
  
 if(sesion == 2)
