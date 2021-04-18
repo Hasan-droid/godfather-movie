@@ -1,0 +1,40 @@
+h1{
+  text-align:center;
+ font-family:sans-serif;
+}
+a{
+  text-decoration:none;
+  color:#C7C314;
+}
+ul{
+  background-color:#C71419;
+   border-radius: 25px;
+  border: 2px solid #73AD21;
+}
+ul li{
+  
+  display: inline;
+  margin-right: 10%;
+}
+img{
+   border-radius: 25px;
+  border: 5px solid #943B3E;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;  
+}
+footer
+{
+  text-align: center;
+}
+p
+{
+  font-size: 16sp;
+}
+
+body{
+  
+  background-color: #C6FB3F ;
+  opacity:1;
+}
